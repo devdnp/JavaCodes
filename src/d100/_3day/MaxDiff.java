@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class MaxDiff {
     public static void main(String[] args) {
-        int[] arr = { 7, 4, 8, 8, 8, 9 };
-        int k = 6;
+        int[] arr = {1, 5, 15, 10};//{ 7, 4, 8, 8, 8, 9 };
+        int k = 3;
         System.out.println(getMaxDiff(arr, k));
     }
     static int getMaxDiff(int[] arr, int k){
