@@ -1,10 +1,12 @@
 package gfg._array._basic;
 
+import java.util.Arrays;
+
 public class ConvertArrayIntoZigZagFashion {
     public static void main(String[] args) {
-        int[] a={};
-        int n=6;
-        System.out.println(zigZag(a,n));
+        int[] a={4, 3, 7, 8, 6, 2, 1};
+        int n=a.length;
+        System.out.println(Arrays.toString(zigZag(a,n)));
     }
     static int[] zigZag(int a[], int n){
         // Code your solution here.
