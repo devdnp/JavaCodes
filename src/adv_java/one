@@ -8,9 +8,14 @@ public and protected methods and fields of its super class.
 Q2. What are the various access specifiers for Java classes?
 Ans: In Java, access specifiers are the keywords used before a class name which defines the access
 scope. The types of access specifiers for classes are:
-1. Public : Class,Method,Field is accessible from anywhere.
-2. Protected:Method,Field can be accessed from the same class to which they belong or from the
+1). Public : Class,Method,Field is accessible from anywhere.
+2). Protected:Method,Field can be accessed from the same class to which they belong or from the
 sub-classes,and from the class of same package,but not from outside.
-3. Default: Method,Field,class can be accessed only from the same package and not from outside
+3). Default: Method,Field,class can be accessed only from the same package and not from outside
 of it’s native package.
-4. Private: Method,Field can be accessed from the same class to which they belong.
+4). Private: Method,Field can be accessed from the same class to which they belong.
+
+Q3. What's the purpose of Static methods and static variables?
+Ans: When there is a requirement to share a method or a variable between multiple objects of a
+class instead of creating separate copies for each object, we use static keyword to make a method
+or variable shared for all objects.
