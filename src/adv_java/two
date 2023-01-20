@@ -11,3 +11,16 @@ to just one instance. Singleton class concept is useful for the situations when 
 limit the number of objects for a class.
 The best example of singleton usage scenario is when there is a limit of having only one
 connection to a database due to some driver limitations or because of any licensing issues.
+
+Q6. What are Loops in Java? What are three types of loops?
+Ans: Looping is used in programming to execute a statement or a block of statement repeatedly.
+There are three types of loops in Java:
+1) For Loops
+For loops are used in java to execute statements repeatedly for a given number of times. For loops
+are used when number of times to execute the statements is known to programmer.
+2) While Loops
+While loop is used when certain statements need to be executed repeatedly until a condition is
+fulfilled. In while loops, condition is checked first before execution of statements.
+3) Do While Loops
+Do While Loop is same as While loop with only difference that condition is checked after execution
+of block of statements. Hence in case of do while loop, statements are executed at least once.
