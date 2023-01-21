@@ -12,3 +12,17 @@ When a method is declared as final,it can NOT be overridden by the subclasses.Th
 faster than any other method,because they are resolved at complied time.
 When a class is declares as final,it cannot be subclassed. Example String,Integer and other wrapper
 classes.
+
+Q11. What is ternary operator? Give an example.
+Ans: Ternary operator , also called conditional operator is used to decide which value to assign to a
+variable based on a Boolean value evaluation. It's denoted as ?
+In the below example, if rank is 1, status is assigned a value of "Done" else "Pending".
+
+public class conditionTest {
+    public static void main(String args[]) {
+        String status;
+        int rank = 3;
+        status = (rank == 1) ? "Done" : "Pending";
+        System.out.println(status);
+    }
+}
