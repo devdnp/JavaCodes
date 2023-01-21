@@ -27,3 +27,8 @@ public class conditionTest {
     }
 }
 
+Q12: How can you generate random numbers in Java?
+Ans:
+• Using Math.random() you can generate random numbers in the range greater than or equal
+to 0.1 and less than 1.0
+• Using Random class in package java.util
