@@ -55,5 +55,10 @@ public class switchExample {
     }
 }
 
+
 Q14. What's the base class in Java from which all classes are derived?
 Ans: java.lang.object
+
+Q15. Can main() method in Java can return any data?
+Ans: In java, main() method can’t return any data and hence, it’s always declared with a void
+return type.
