@@ -32,3 +32,22 @@ Ans:
 • Using Math.random() you can generate random numbers in the range greater than or equal
 to 0.1 and less than 1.0
 • Using Random class in package java.util
+
+Q13. What is default switch case? Give example.
+Ans: In a switch statement, default case is executed when no other switch condition matches.
+Default case is an optional case .
+It can be declared only once all other switch cases have been coded.
+In the below example, when score is not 1 or 2, default case is used.
+public class switchExample {
+int score=4;
+public static void main(String args[]) {
+switch (score) {
+case 1:
+system.out.println("Score is 1");
+break;
+case 2:
+system.out.println("Score is 2");
+break;
+default:
+system.out.println("Default Case");
+}
