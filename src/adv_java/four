@@ -38,16 +38,19 @@ Ans: In a switch statement, default case is executed when no other switch condit
 Default case is an optional case .
 It can be declared only once all other switch cases have been coded.
 In the below example, when score is not 1 or 2, default case is used.
+
 public class switchExample {
-int score=4;
-public static void main(String args[]) {
-switch (score) {
-case 1:
-system.out.println("Score is 1");
-break;
-case 2:
-system.out.println("Score is 2");
-break;
-default:
-system.out.println("Default Case");
+    int score=4;
+    public static void main(String args[]) {
+        switch (score) {
+            case 1:
+                system.out.println("Score is 1");
+                break;
+            case 2:
+                system.out.println("Score is 2");
+                break;
+            default:
+                system.out.println("Default Case");
+        }
+    }
 }
