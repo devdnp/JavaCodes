@@ -54,3 +54,6 @@ public class switchExample {
         }
     }
 }
+
+Q14. What's the base class in Java from which all classes are derived?
+Ans: java.lang.object
