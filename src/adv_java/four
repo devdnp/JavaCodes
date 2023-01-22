@@ -68,3 +68,8 @@ Ans: In Java, package is a collection of classes and interfaces which are bundle
 are related to each other. Use of packages helps developers to modularize the code and group the
 code for proper re-use. Once code has been packaged in Packages, it can be imported in other
 classes and used.
+
+Q17. Can we declare a class as Abstract without having any abstract method?
+Ans: Yes we can create an abstract class by using abstract keyword before class name even if it
+doesn't have any abstract method. However, if a class has even one abstract method, it must be
+declared as abstract otherwise it will give an error.
