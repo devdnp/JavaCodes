@@ -62,3 +62,9 @@ Ans: java.lang.object
 Q15. Can main() method in Java can return any data?
 Ans: In java, main() method can’t return any data and hence, it’s always declared with a void
 return type.
+
+Q16. What are Java Packages? What's the significance of packages?
+Ans: In Java, package is a collection of classes and interfaces which are bundled together as they
+are related to each other. Use of packages helps developers to modularize the code and group the
+code for proper re-use. Once code has been packaged in Packages, it can be imported in other
+classes and used.
