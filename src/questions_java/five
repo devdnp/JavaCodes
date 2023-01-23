@@ -4,3 +4,12 @@ are required for interfaces. Another key factor for developers to take into cons
 class can extend only one abstract class while a class can implement many interfaces.
 Use of interfaces also puts an extra burden on the developers as any time an interface is
 implemented in a class; developer is forced to implement each and every method of interface.
+
+Q20. Does Importing a package imports its sub-packages as well in Java?
+Ans: In java, when a package is imported, its sub-packages aren't imported and developer needs to
+import them separately if required.
+For example, if a developer imports a package university.*, all classes in the package named
+university are loaded but no classes from the sub-package are loaded. To load the classes from its
+sub-package ( say department), developer has to import it explicitly as follows:
+Import university.department.*
+
