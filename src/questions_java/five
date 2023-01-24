@@ -21,3 +21,7 @@ executed and will give a runtime error.
 Q22. How can we pass argument to a function by reference instead of pass by value?
 Ans: In java, we can pass argument to a function only by value and not by reference.
 
+Q23. How an object is serialized in java?
+Ans: In java, to convert an object into byte stream by serialization, an interface with the name
+Serializable is implemented by the class. All objects of a class implementing serializable interface
+get serialized and their state is saved in byte stream.
