@@ -25,3 +25,8 @@ Q23. How an object is serialized in java?
 Ans: In java, to convert an object into byte stream by serialization, an interface with the name
 Serializable is implemented by the class. All objects of a class implementing serializable interface
 get serialized and their state is saved in byte stream.
+
+Q24. When we should use serialization?
+Ans: Serialization is used when data needs to be transmitted over the network. Using serialization,
+object's state is saved and converted into byte stream .The byte stream is transferred over the
+network and the object is re-created at destination.
