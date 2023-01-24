@@ -18,3 +18,5 @@ Ans: In java, main method must be public static in order to run any application 
 method is declared as private, developer won't get any compilation error however, it will not get
 executed and will give a runtime error.
 
+Q22. How can we pass argument to a function by reference instead of pass by value?
+Ans: In java, we can pass argument to a function only by value and not by reference.
