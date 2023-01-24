@@ -31,3 +31,8 @@ Ans: Serialization is used when data needs to be transmitted over the network. U
 object's state is saved and converted into byte stream .The byte stream is transferred over the
 network and the object is re-created at destination.
 
+Q25. Is it compulsory for a Try Block to be followed by a Catch Block in Java for Exception
+handling?
+Ans: Try block needs to be followed by either Catch block or Finally block or both. Any exception
+thrown from try block needs to be either caught in the catch block or else any specific tasks to be
+performed before code abortion are put in the Finally block.
