@@ -30,3 +30,4 @@ Q24. When we should use serialization?
 Ans: Serialization is used when data needs to be transmitted over the network. Using serialization,
 object's state is saved and converted into byte stream .The byte stream is transferred over the
 network and the object is re-created at destination.
+
