@@ -44,3 +44,17 @@ finally block. Finally block is always executed when an exception occurs and the
 execution of any statements in Finally block is by aborting the code forcibly by writing following
 line of code at the end of try block:
 System.exit(0);
+
+Q27. When the constructor of a class is invoked?
+Ans: The constructor of a class is invoked every time an object is created with new keyword.
+For example, in the following class two objects are created using new keyword and hence,
+constructor is invoked two times.
+public class const_example {
+const_example() {
+system.out.println("Inside constructor");
+}
+public static void main(String args[]) {
+const_example c1=new const_example();
+const_example c2=new const_example();
+}
+}
