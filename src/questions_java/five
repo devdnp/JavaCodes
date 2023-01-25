@@ -36,3 +36,4 @@ handling?
 Ans: Try block needs to be followed by either Catch block or Finally block or both. Any exception
 thrown from try block needs to be either caught in the catch block or else any specific tasks to be
 performed before code abortion are put in the Finally block.
+
