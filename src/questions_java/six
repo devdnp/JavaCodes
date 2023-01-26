@@ -32,3 +32,10 @@ Q31. Is String a data type in java?
 Ans: String is not a primitive data type in java. When a string is created in java, it's actually an
 object of Java.Lang.String class that gets created. After creation of this string object, all built-in
 methods of String class can be used on the string object.
+
+Q32. In the below example, how many String Objects are created?
+String s1="I am Java Expert";
+String s2="I am C Expert";
+String s3="I am Java Expert";
+Ans: In the above example, two objects of Java.Lang.String class are created. s1 and s3 are
+references to same object.
