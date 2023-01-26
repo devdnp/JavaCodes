@@ -1,3 +1,9 @@
 Q28. Can a class have multiple constructors?
 Ans: Yes, a class can have multiple constructors with different parameters. Which constructor gets
 used for object creation depends on the arguments passed while creating the objects.
+
+Q29. Can we override static methods of a class?
+Ans: We cannot override static methods. Static methods belong to a class and not to individual
+objects and are resolved at the time of compilation (not at runtime).Even if we try to override
+static method,we will not get an complitaion error,nor the impact of overriding when running the
+code.
