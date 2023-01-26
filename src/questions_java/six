@@ -1,0 +1,3 @@
+Q28. Can a class have multiple constructors?
+Ans: Yes, a class can have multiple constructors with different parameters. Which constructor gets
+used for object creation depends on the arguments passed while creating the objects.
