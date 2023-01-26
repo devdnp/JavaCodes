@@ -24,3 +24,6 @@ public class subclass extends superclass {
         obj.displayResult();
     }
 }
+Ans: Output will be:
+Displaying from subclass
+Displaying from superclass
