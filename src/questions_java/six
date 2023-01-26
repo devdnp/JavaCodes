@@ -27,3 +27,8 @@ public class subclass extends superclass {
 Ans: Output will be:
 Displaying from subclass
 Displaying from superclass
+
+Q31. Is String a data type in java?
+Ans: String is not a primitive data type in java. When a string is created in java, it's actually an
+object of Java.Lang.String class that gets created. After creation of this string object, all built-in
+methods of String class can be used on the string object.
