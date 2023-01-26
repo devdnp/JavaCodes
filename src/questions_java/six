@@ -7,3 +7,20 @@ Ans: We cannot override static methods. Static methods belong to a class and not
 objects and are resolved at the time of compilation (not at runtime).Even if we try to override
 static method,we will not get an complitaion error,nor the impact of overriding when running the
 code.
+
+Q30. In the below example, what will be the output?
+public class superclass {
+public void displayResult() {
+system.out.println("Printing from superclass");
+}
+}
+public class subclass extends superclass {
+public void displayResult() {
+system.out.println("Displaying from subClass");
+super.displayResult();
+}
+public static void main(String args[]) {
+subclass obj=new subclass();
+obj.displayResult();
+}
+}
