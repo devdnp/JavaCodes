@@ -39,3 +39,12 @@ String s2="I am C Expert";
 String s3="I am Java Expert";
 Ans: In the above example, two objects of Java.Lang.String class are created. s1 and s3 are
 references to same object.
+
+Q33. Why Strings in Java are called as Immutable?
+Ans: In java, string objects are called immutable as once value has been assigned to a string, it
+can't be changed and if changed, a new object is created.
+In below example, reference str refers to a string object having value "Value one".
+String str="Value One";
+When a new value is assigned to it, a new String object gets created and the reference is moved to
+the new object.
+str="New Value";
