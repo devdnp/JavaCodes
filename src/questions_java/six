@@ -39,4 +39,3 @@ String s2="I am C Expert";
 String s3="I am Java Expert";
 Ans: In the above example, two objects of Java.Lang.String class are created. s1 and s3 are
 references to same object.
-
