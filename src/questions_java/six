@@ -57,3 +57,7 @@ Q35. What is multi-threading?
 Ans: Multi threading is a programming concept to run multiple tasks in a concurrent manner
 within a single program. Threads share same process stack and running in parallel. It helps in
 performance improvement of any program.
+
+Q36. Why Runnable Interface is used in Java?
+Ans: Runnable interface is used in java for implementing multi threaded applications.
+Java.Lang.Runnable interface is implemented by a class to support multi threading.
