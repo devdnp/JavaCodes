@@ -48,3 +48,7 @@ String str="Value One";
 When a new value is assigned to it, a new String object gets created and the reference is moved to
 the new object.
 str="New Value";
+
+Q34. What's the difference between an array and Vector?
+Ans: An array groups data of same primitive type and is static in nature while vectors are dynamic
+in nature and can hold data of different data types.
