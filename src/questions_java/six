@@ -68,3 +68,10 @@ methodologies:
 1. By using Java.Lang.Runnable Interface. Classes implement this interface to enable multi
 threading. There is a Run() method in this interface which is implemented.
 2. By writing a class that extend Java.Lang.Thread class.
+
+Q38. When a lot of changes are required in data, which one should be a preference to be used?
+String or StringBuffer?
+Ans: Since StringBuffers are dynamic in nature and we can change the values of StringBuffer
+objects unlike String which is immutable, it's always a good choice to use StringBuffer when data is
+being changed too much. If we use String in such a case, for every data change a new String object
+will be created which will be an extra overhead.
