@@ -92,3 +92,18 @@ Ans: If we want to execute any statements before even creation of objects at loa
 we can use a static block of code in the class. Any statements inside this static block of code will
 get executed once at the time of loading the class even before creation of objects in the main
 method.
+
+Q42. Can a class be a super class and a sub-class at the same time? Give example.
+Ans: If there is a hierarchy of inheritance used, a class can be a super class for another class and a
+sub-class for another one at the same time.
+In the example below, continent class is sub-class of world class and it's super class of country
+class.
+public class world {
+..........
+}
+public class continenet extends world {
+............
+}
+public class country extends continent {
+......................
+}
