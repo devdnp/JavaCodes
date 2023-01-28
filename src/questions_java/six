@@ -75,3 +75,9 @@ Ans: Since StringBuffers are dynamic in nature and we can change the values of S
 objects unlike String which is immutable, it's always a good choice to use StringBuffer when data is
 being changed too much. If we use String in such a case, for every data change a new String object
 will be created which will be an extra overhead.
+
+Q39. What's the purpose of using Break in each case of Switch Statement?
+Ans: Break is used after each case (except the last one) in a switch so that code breaks after the
+valid case and doesn't flow in the proceeding cases too.
+If break isn't used after each case, all cases after the valid case also get executed resulting in
+wrong results.
