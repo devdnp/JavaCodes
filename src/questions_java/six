@@ -86,3 +86,9 @@ Q40. How garbage collection is done in Java?
 Ans: In java, when an object is not referenced any more, garbage collection takes place and the
 object is destroyed automatically. For automatic garbage collection java calls either System.gc()
 method or Runtime.gc() method.
+
+Q41. How we can execute any code even before main method?
+Ans: If we want to execute any statements before even creation of objects at load time of class,
+we can use a static block of code in the class. Any statements inside this static block of code will
+get executed once at the time of loading the class even before creation of objects in the main
+method.
