@@ -61,3 +61,10 @@ performance improvement of any program.
 Q36. Why Runnable Interface is used in Java?
 Ans: Runnable interface is used in java for implementing multi threaded applications.
 Java.Lang.Runnable interface is implemented by a class to support multi threading.
+
+Q37. What are the two ways of implementing multi-threading in Java?
+Ans: Multi threaded applications can be developed in Java by using any of the following two
+methodologies:
+1. By using Java.Lang.Runnable Interface. Classes implement this interface to enable multi
+threading. There is a Run() method in this interface which is implemented.
+2. By writing a class that extend Java.Lang.Thread class.
