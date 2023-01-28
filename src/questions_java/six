@@ -81,3 +81,8 @@ Ans: Break is used after each case (except the last one) in a switch so that cod
 valid case and doesn't flow in the proceeding cases too.
 If break isn't used after each case, all cases after the valid case also get executed resulting in
 wrong results.
+
+Q40. How garbage collection is done in Java?
+Ans: In java, when an object is not referenced any more, garbage collection takes place and the
+object is destroyed automatically. For automatic garbage collection java calls either System.gc()
+method or Runtime.gc() method.
