@@ -111,3 +111,10 @@ public class country extends continent {
 Q43. How objects of a class are created if no constructor is defined in the class?
 Ans: Even if no explicit constructor is defined in a java class, objects get created successfully as a
 default constructor is implicitly used for object creation. This constructor has no parameters.
+
+Q44. In multi-threading how can we ensure that a resource isn't used by multiple threads
+simultaneously?
+Ans: In multi-threading, access to the resources which are shared among multiple threads can be
+controlled by using the concept of synchronization. Using synchronized keyword, we can ensure
+that only one thread can use shared resource at a time and others can get control of the resource
+only once it has become free from the other one using it.
