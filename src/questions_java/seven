@@ -2,3 +2,8 @@ Q45. Can we call the constructor of a class more than once for an object?
 Ans: Constructor is called automatically when we create an object using new keyword. It's called
 only once for an object at the time of object creation and hence, we can't invoke the constructor
 again for an object after its creation.
+
+Q46. There are two classes named classA and classB. Both classes are in the same package. Can a
+private member of classA can be accessed by an object of classB?
+Ans: Private members of a class aren't accessible outside the scope of that class and any other
+class even in the same package can't access them.
