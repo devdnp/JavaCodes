@@ -7,3 +7,22 @@ Q46. There are two classes named classA and classB. Both classes are in the same
 private member of classA can be accessed by an object of classB?
 Ans: Private members of a class aren't accessible outside the scope of that class and any other
 class even in the same package can't access them.
+
+Q47. Can we have two methods in a class with the same name?
+Ans: We can define two methods in a class with the same name but with different number/type of
+parameters. Which method is to get invoked will depend upon the parameters passed.
+For example in the class below we have two print methods with same name but different
+parameters. Depending upon the parameters, appropriate one will be called:
+public class methodExample {
+public void print() {
+system.out.println("Print method without parameters.");
+}
+public void print(String name) {
+system.out.println("Print method with parameter");
+}
+public static void main(String args[]) {
+methodExample obj1= new methodExample();
+obj1.print();
+obj1.print("xx");
+}
+}
