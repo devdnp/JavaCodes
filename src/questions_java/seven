@@ -27,3 +27,8 @@ public class methodExample {
     }
 }
 
+Q48. How can we make copy of a java object?
+Ans: We can use the concept of cloning to create copy of an object. Using clone, we create copies
+with the actual state of an object.
+Clone() is a method of Cloneable interface and hence, Cloneable interface needs to be
+implemented for making object copies.
