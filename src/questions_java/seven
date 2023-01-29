@@ -32,3 +32,8 @@ Ans: We can use the concept of cloning to create copy of an object. Using clone,
 with the actual state of an object.
 Clone() is a method of Cloneable interface and hence, Cloneable interface needs to be
 implemented for making object copies.
+
+Q49. What's the benefit of using inheritance?
+Ans: Key benefit of using inheritance is reusability of code as inheritance enables sub-classes to
+reuse the code of its super class. Polymorphism (Extensibility ) is another great benefit which allow
+new functionality to be introduced without effecting existing derived classes.
