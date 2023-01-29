@@ -37,3 +37,7 @@ Q49. What's the benefit of using inheritance?
 Ans: Key benefit of using inheritance is reusability of code as inheritance enables sub-classes to
 reuse the code of its super class. Polymorphism (Extensibility ) is another great benefit which allow
 new functionality to be introduced without effecting existing derived classes.
+
+Q50. What’s the default access specifier for variables and methods of a class?
+Ans: Default access specifier for variables and method is package protected i.e variables and class
+is available to any other class but in the same package,not outside the package.
