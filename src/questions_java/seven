@@ -41,3 +41,6 @@ new functionality to be introduced without effecting existing derived classes.
 Q50. What’s the default access specifier for variables and methods of a class?
 Ans: Default access specifier for variables and method is package protected i.e variables and class
 is available to any other class but in the same package,not outside the package.
+
+Q51. Give an example of use of Pointers in Java class.
+Ans: There are no pointers in Java. So we can't use concept of pointers in Java.
