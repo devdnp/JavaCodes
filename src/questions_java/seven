@@ -52,3 +52,7 @@ In the following example, Stone class is Final and can't be extend
 public Final Class Stone {
 // Class methods and Variables
 }
+
+Q53. What’s the access scope of Protected Access specifier?
+Ans: When a method or a variable is declared with Protected access specifier, it becomes
+accessible in the same class,any other class of the same package as well as a sub-class.
