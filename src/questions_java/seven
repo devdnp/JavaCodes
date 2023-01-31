@@ -62,3 +62,8 @@ public          Y       Y           Y           Y
 protected       Y       Y           Y           N
 no modifier     Y       Y           N           N
 private         Y       N           N           N
+
+Q54. What's difference between Stack and Queue?
+Ans: Stack and Queue both are used as placeholder for a collection of data. The primary difference
+between a stack and a queue is that stack is based on Last in First out (LIFO) principle while a
+queue is based on FIFO (First In First Out) principle.
