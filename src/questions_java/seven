@@ -44,3 +44,11 @@ is available to any other class but in the same package,not outside the package.
 
 Q51. Give an example of use of Pointers in Java class.
 Ans: There are no pointers in Java. So we can't use concept of pointers in Java.
+
+Q52. How can we restrict inheritance for a class so that no class can be inherited from it?
+Ans: If we want a class not to be extended further by any class, we can use the keyword Final with
+the class name.
+In the following example, Stone class is Final and can't be extend
+public Final Class Stone {
+// Class methods and Variables
+}
