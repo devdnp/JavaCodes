@@ -77,3 +77,8 @@ public class transientExample {
     private transient trans_var;
     // rest of the code
 }
+
+Q56. How can we use primitive data types as objects?
+Ans: Primitive data types like int can be handled as objects by the use of their respective wrapper
+classes. For example, Integer is a wrapper class for primitive data type int. We can apply different
+methods to a wrapper class, just like any other object.
