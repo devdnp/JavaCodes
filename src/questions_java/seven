@@ -67,3 +67,13 @@ Q54. What's difference between Stack and Queue?
 Ans: Stack and Queue both are used as placeholder for a collection of data. The primary difference
 between a stack and a queue is that stack is based on Last in First out (LIFO) principle while a
 queue is based on FIFO (First In First Out) principle.
+
+Q55. In java, how we can disallow serialization of variables?
+Ans: If we want certain variables of a class not to be serialized, we can use the keyword transient
+while declaring them. For example, the variable trans_var below is a transient variable and can't
+be serialized:
+
+public class transientExample {
+    private transient trans_var;
+    // rest of the code
+}
