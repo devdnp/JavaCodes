@@ -93,3 +93,8 @@ Ans: A thread in Java can be in either of the following states:
 • Running: A thread currently being executed is in running state.
 • Waiting: A thread waiting for another thread to free certain resources is in waiting state.
 • Dead: A thread which has gone dead after execution is in dead state.
+
+Q59. Can we use a default constructor of a class even if an explicit constructor is defined?
+Ans: Java provides a default no argument constructor if no explicit constructor is defined in a Java
+class. But if an explicit constructor has been defined, default constructor can't be invoked and
+developer can use only those constructors which are defined in the class.
