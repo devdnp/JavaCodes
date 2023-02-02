@@ -82,3 +82,7 @@ Q56. How can we use primitive data types as objects?
 Ans: Primitive data types like int can be handled as objects by the use of their respective wrapper
 classes. For example, Integer is a wrapper class for primitive data type int. We can apply different
 methods to a wrapper class, just like any other object.
+
+Q57. Which types of exceptions are caught at compile time?
+Ans: Checked exceptions can be caught at the time of program compilation. Checked exceptions
+must be handled by using try catch block in the code in order to successfully compile the code.
