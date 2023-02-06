@@ -112,3 +112,5 @@ public class operatorExample {
         system.out.println(x++);
     }
 }
+Ans: In this case postfix ++ operator is used which first returns the value and then increments.
+Hence it's output will be 4.
