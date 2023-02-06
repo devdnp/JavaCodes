@@ -119,3 +119,10 @@ Q62. Can we call a non-static method from inside a static method?
 Ans: Non-Static methods are owned by objects of a class and have object level scope and in order
 to call the non-Static methods from a static block (like from a static main method), an object of the
 class needs to be created first. Then using object reference, these methods can be invoked.
+
+Q63. What are the two environment variables that must be set in order to run any Java
+programs?
+Ans: Java programs can be executed in a machine only once following two environment variables
+have been properly set:
+1. PATH variable
+2. CLASSPATH variable
