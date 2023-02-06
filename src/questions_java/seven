@@ -134,3 +134,7 @@ doesn't compile and gives an error as no default value is assigned to variables 
 Q65. Can a class in Java be inherited from more than one class?
 Ans: In Java, a class can be derived from only one class and not from multiple classes. Multiple
 inheritances is not supported by Java.
+
+Q66. Can a constructor have different name than a Class name in Java?
+Ans: Constructor in Java must have same name as the class name and if the name is different, it
+doesn't act as a constructor and compiler thinks of it as a normal method.
