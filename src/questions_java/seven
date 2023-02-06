@@ -107,8 +107,8 @@ return type doesn't override a method.
 
 Q61.What will be the output of following piece of code?
 public class operatorExample {
-public static void main(String args[]) {
-int x=4;
-system.out.println(x++);
-}
+    public static void main(String args[]) {
+        int x=4;
+        system.out.println(x++);
+    }
 }
