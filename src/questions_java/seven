@@ -130,3 +130,7 @@ have been properly set:
 Q64. Can variables be used in Java without initialization?
 Ans: In Java, if a variable is used in a code without prior initialization by a valid value, program
 doesn't compile and gives an error as no default value is assigned to variables in Java.
+
+Q65. Can a class in Java be inherited from more than one class?
+Ans: In Java, a class can be derived from only one class and not from multiple classes. Multiple
+inheritances is not supported by Java.
