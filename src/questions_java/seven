@@ -105,4 +105,10 @@ Ans: The basic condition of method overriding is that method name, arguments as 
 type must be exactly same as is that of the method being overridden. Hence using a different
 return type doesn't override a method.
 
-Q61. Yet to add
+Q61.What will be the output of following piece of code?
+public class operatorExample {
+public static void main(String args[]) {
+int x=4;
+system.out.println(x++);
+}
+}
