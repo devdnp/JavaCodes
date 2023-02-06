@@ -126,3 +126,7 @@ Ans: Java programs can be executed in a machine only once following two environm
 have been properly set:
 1. PATH variable
 2. CLASSPATH variable
+
+Q64. Can variables be used in Java without initialization?
+Ans: In Java, if a variable is used in a code without prior initialization by a valid value, program
+doesn't compile and gives an error as no default value is assigned to variables in Java.
