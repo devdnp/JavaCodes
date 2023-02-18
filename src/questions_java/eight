@@ -4,3 +4,7 @@ Ans: Round(3.7) returns 4 and Ceil(3.7) returns 4.
 Q68: Can we use goto in Java to go to a particular line?
 Ans: In Java, there is not goto keyword and java doesn't support this feature of going to a
 particular labeled line.
+
+Q69. Can a dead thread be started again?
+Ans: In java, a thread which is in dead state can't be started again. There is no way to restart a
+dead thread.
