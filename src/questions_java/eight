@@ -1,2 +1,6 @@
 Q67. What will be the output of Round(3.7) and Ceil(3.7)?
 Ans: Round(3.7) returns 4 and Ceil(3.7) returns 4.
+
+Q68: Can we use goto in Java to go to a particular line?
+Ans: In Java, there is not goto keyword and java doesn't support this feature of going to a
+particular labeled line.
