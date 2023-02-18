@@ -8,3 +8,10 @@ particular labeled line.
 Q69. Can a dead thread be started again?
 Ans: In java, a thread which is in dead state can't be started again. There is no way to restart a
 dead thread.
+
+Q70. Is the following class declaration correct?
+Ans:
+public abstract final class testClass {
+// Class methods and variables
+}
+Ans: The above class declaration is incorrect as an abstract class can't be declared as Final.
