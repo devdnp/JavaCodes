@@ -15,3 +15,8 @@ public abstract final class testClass {
 // Class methods and variables
 }
 Ans: The above class declaration is incorrect as an abstract class can't be declared as Final.
+
+Q71. Is JDK required on each machine to run a Java program?
+Ans: JDK is development Kit of Java and is required for development only and to run a Java
+program on a machine, JDK isn't required. Only JRE is required.
+
