@@ -26,21 +26,22 @@ true if the two have same value while == operator compares the references of two
 
 In the following example, equals() returns true as the two string objects have same values.
 However == operator returns false as both string objects are referencing to different objects:
+
 public class equalsTest {
- public static void main(String args[]) {
- String str1 = new String("Hello World");
- String str2 = new String("Hello World");
- if (str1.equals(str2))
- { // this condition is true
-System.out.println("str1 and str2 are equal in terms of values");
- }
- if (str1 == str2) {
- //This condition is true
- System.out.println("Both strings are referencing same object");
- } else
- {
- // This condition is NOT true
- System.out.println("Both strings are referencing different objects");
- }
- }
+    public static void main(String args[]) {
+        String str1 = new String("Hello World");
+        String str2 = new String("Hello World");
+        if (str1.equals(str2))
+        { // this condition is true
+            System.out.println("str1 and str2 are equal in terms of values");
+        }
+        if (str1 == str2) {
+            //This condition is true
+            System.out.println("Both strings are referencing same object");
+        } else
+        {
+            // This condition is NOT true
+            System.out.println("Both strings are referencing different objects");
+        }
+    }
 }
