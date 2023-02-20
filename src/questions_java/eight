@@ -57,3 +57,7 @@ Q74. How are destructors defined in Java?
 Ans: In Java, there are no destructors defined in the class as there is no need to do so. Java has its
 own garbage collection mechanism which does the job automatically by destroying the objects
 when no longer referenced.
+
+Q75. Can a variable be local and static at the same time?
+Ans: No a variable can't be static as well as local at the same time. Defining a local variable as
+static gives compilation error.
