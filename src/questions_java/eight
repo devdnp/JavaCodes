@@ -52,3 +52,8 @@ another language like C?
 Ans: Yes, we can do this by use of native methods. In case of native method based development,
 we define public static methods in our Java class without its implementation and then
 implementation is done in another language like C separately.
+
+Q74. How are destructors defined in Java?
+Ans: In Java, there are no destructors defined in the class as there is no need to do so. Java has its
+own garbage collection mechanism which does the job automatically by destroying the objects
+when no longer referenced.
