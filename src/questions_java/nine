@@ -21,3 +21,6 @@ doesn't ensure that.
 Q79. Can we have any other return type than void for main method?
 Ans: No, Java class main method can have only void return type for the program to get successfully
 executed.
+Nonetheless , if you absolutely must return a value to at the completion of main method , you can
+use System.exit(int status).
+
