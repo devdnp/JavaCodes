@@ -1,1 +1,4 @@
-Checking if clone is  working
+Q76. Can we have static methods in an Interface?
+Ans: Static methods can't be overridden in any class while any methods in an interface are by
+default abstract and are supposed to be implemented in the classes being implementing the
+interface. So it makes no sense to have static methods in an interface in Java.
