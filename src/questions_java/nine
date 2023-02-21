@@ -15,6 +15,8 @@ Ans: Even though automatic garbage collection is provided by Java, it doesn't en
 program will not go out of memory as there is a possibility that creation of Java objects is being
 done at a faster pace compared to garbage collection resulting in filling of all the available memory
 resources.
+So, garbage collection helps in reducing the chances of a program going out of memory but it
+doesn't ensure that.
 
 Q79. Can we have any other return type than void for main method?
 Ans: No, Java class main method can have only void return type for the program to get successfully
