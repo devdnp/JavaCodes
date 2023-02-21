@@ -8,3 +8,10 @@ the interface?
 Ans: No, we can't change the value of any variable of an interface in the implementing class as all
 variables defined in the interface are by default public, static and Final and final variables are like
 constants which can't be changed later.
+
+Q78. Is it correct to say that due to garbage collection feature in Java, a java program never goes
+out of memory?
+Ans: Even though automatic garbage collection is provided by Java, it doesn't ensure that a Java
+program will not go out of memory as there is a possibility that creation of Java objects is being
+done at a faster pace compared to garbage collection resulting in filling of all the available memory
+resources.
