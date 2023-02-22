@@ -24,3 +24,6 @@ executed.
 Nonetheless , if you absolutely must return a value to at the completion of main method , you can
 use System.exit(int status).
 
+Q80. I want to re-reach and use an object once it has been garbage collected. How it's possible?
+Ans: Once an object has been destroyed by garbage collector, it no longer exists on the heap and it
+can't be accessed again. There is no way to reference it again.
