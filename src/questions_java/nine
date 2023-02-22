@@ -30,3 +30,9 @@ can't be accessed again. There is no way to reference it again.
 
 Q81. In Java thread programming, which method is a must implementation for all threads?
 Ans: Run() is a method of Runnable interface that must be implemented by all threads.
+
+Q82. I want to control database connections in my program and want that only one thread
+should be able to make database connection at a time. How can I implement this logic?
+Ans: This can be implemented by use of the concept of synchronization. Database related code
+can be placed in a method which hs synchronized keyword so that only one thread can access it at
+a time.
