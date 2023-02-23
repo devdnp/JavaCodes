@@ -41,13 +41,14 @@ Q83. How can an exception be thrown manually by a programmer?
 Ans: In order to throw an exception in a block of code manually, throw keyword is used. Then this
 exception is caught and handled in the catch block.
 public void topMethod(){
-try{
-excMethod();
-}catch(ManualException e){ }
+    try{
+        excMethod();
+    }catch(ManualException e)
+    { }
 }
 public void excMethod{
-String name=null;
-if(name == null){
-throw (new ManualException("Exception thrown manually ");
-}
+    String name=null;
+    if(name == null){
+        throw (new ManualException("Exception thrown manually ");
+    }
 }
