@@ -36,3 +36,18 @@ should be able to make database connection at a time. How can I implement this l
 Ans: This can be implemented by use of the concept of synchronization. Database related code
 can be placed in a method which hs synchronized keyword so that only one thread can access it at
 a time.
+
+Q83. How can an exception be thrown manually by a programmer?
+Ans: In order to throw an exception in a block of code manually, throw keyword is used. Then this
+exception is caught and handled in the catch block.
+public void topMethod(){
+try{
+excMethod();
+}catch(ManualException e){ }
+}
+public void excMethod{
+String name=null;
+if(name == null){
+throw (new ManualException("Exception thrown manually ");
+}
+}
