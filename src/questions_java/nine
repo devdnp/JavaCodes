@@ -63,3 +63,6 @@ Q85. How objects are stored in Java?
 Ans: In java, each object when created gets a memory space from a heap. When an object is
 destroyed by a garbage collector, the space allocated to it from the heap is re-allocated to the
 heap and becomes available for any new objects.
+
+Q86. How can we find the actual size of an object on the heap?
+Ans: In java, there is no way to find out the exact size of an object on the heap.
