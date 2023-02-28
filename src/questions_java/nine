@@ -70,3 +70,5 @@ Ans: In java, there is no way to find out the exact size of an object on the hea
 Q87. Which of the following classes will have more memory allocated?
 Class A: Three methods, four variables, no object
 Class B: Five methods, three variables, no object
+Ans: Memory isn't allocated before creation of objects. Since for both classes, there are no
+objects created so no memory is allocated on heap for any class.
