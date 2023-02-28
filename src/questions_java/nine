@@ -66,3 +66,7 @@ heap and becomes available for any new objects.
 
 Q86. How can we find the actual size of an object on the heap?
 Ans: In java, there is no way to find out the exact size of an object on the heap.
+
+Q87. Which of the following classes will have more memory allocated?
+Class A: Three methods, four variables, no object
+Class B: Five methods, three variables, no object
