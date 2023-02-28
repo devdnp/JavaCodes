@@ -72,3 +72,7 @@ Class A: Three methods, four variables, no object
 Class B: Five methods, three variables, no object
 Ans: Memory isn't allocated before creation of objects. Since for both classes, there are no
 objects created so no memory is allocated on heap for any class.
+
+Q88. What happens if an exception is not handled in a program?
+Ans: If an exception is not handled in a program using try catch blocks, program gets aborted and
+no statement executes after the statement which caused exception throwing.
