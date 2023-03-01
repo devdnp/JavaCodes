@@ -2,3 +2,25 @@ Q89. I have multiple constructors defined in a class. Is it possible to call a c
 another constructor's body?
 Ans: If a class has multiple constructors, it's possible to call one constructor from the body of
 another one using this().
+
+Q90. What’s meant by anonymous class?
+Ans: An anonymous class is a class defined without any name in a single line of code using new
+keyword.
+For example, in below code we have defined an anonymous class in one line of code:
+public java.util.Enumeration testMethod()
+{
+return new java.util.Enumeration()
+{
+@Override
+public boolean hasMoreElements()
+{
+// TODO Auto-generated method stub
+return false;
+}
+@Override
+public Object nextElement()
+{
+// TODO Auto-generated method stub
+return null;
+}
+}
