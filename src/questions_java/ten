@@ -42,3 +42,7 @@ Q94. What is a Local class in Java?
 Ans: In Java, if we define a new class inside a particular block, it's called a local class. Such a class
 has local scope and isn't usable outside the block where its defined.
 
+Q95. String and StringBuffer both represent String objects. Can we compare String and
+StringBuffer in Java?
+Ans: Although String and StringBuffer both represent String objects, we can't compare them with
+each other and if we try to compare them, we get an error.
