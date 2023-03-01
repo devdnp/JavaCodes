@@ -23,3 +23,8 @@ public java.util.Enumeration testMethod(){
         }
     }
 }
+
+Q91. Is there a way to increase the size of an array after its declaration?
+Ans: Arrays are static and once we have specified its size, we can't change it. If we want to use
+such collections where we may require a change of size ( no of items), we should prefer vector
+over array.
