@@ -38,3 +38,7 @@ method of that particular class only.
 Q93. I want to persist data of objects for later use. What's the best approach to do so?
 Ans: The best way to persist data for future use is to use the concept of serialization.
 
+Q94. What is a Local class in Java?
+Ans: In Java, if we define a new class inside a particular block, it's called a local class. Such a class
+has local scope and isn't usable outside the block where its defined.
+
