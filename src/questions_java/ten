@@ -35,3 +35,6 @@ Ans: If there is main method in more than one classes in a java application, it 
 issue as entry point for any application will be a specific class and code will start from the main
 method of that particular class only.
 
+Q93. I want to persist data of objects for later use. What's the best approach to do so?
+Ans: The best way to persist data for future use is to use the concept of serialization.
+
