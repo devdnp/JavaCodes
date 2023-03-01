@@ -28,3 +28,10 @@ Q91. Is there a way to increase the size of an array after its declaration?
 Ans: Arrays are static and once we have specified its size, we can't change it. If we want to use
 such collections where we may require a change of size ( no of items), we should prefer vector
 over array.
+
+Q92. If an application has multiple classes in it, is it okay to have a main method in more than
+one class?
+Ans: If there is main method in more than one classes in a java application, it won't cause any
+issue as entry point for any application will be a specific class and code will start from the main
+method of that particular class only.
+
