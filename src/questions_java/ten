@@ -46,3 +46,9 @@ Q95. String and StringBuffer both represent String objects. Can we compare Strin
 StringBuffer in Java?
 Ans: Although String and StringBuffer both represent String objects, we can't compare them with
 each other and if we try to compare them, we get an error.
+
+Q96. Which API is provided by Java for operations on set of objects?
+Ans: Java provides a Collection API which provides many useful methods which can be applied on a
+set of objects. Some of the important classes provided by Collection API include ArrayList,
+HashMap, TreeSet and TreeMap.
+
