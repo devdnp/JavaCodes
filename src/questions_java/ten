@@ -52,3 +52,7 @@ Ans: Java provides a Collection API which provides many useful methods which can
 set of objects. Some of the important classes provided by Collection API include ArrayList,
 HashMap, TreeSet and TreeMap.
 
+Q97. Can we cast any other type to Boolean Type with type casting?
+Ans: No, we can neither cast any other primitive type to Boolean data type nor can cast Boolean
+data type to any other primitive data type.
+
