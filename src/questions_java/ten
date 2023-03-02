@@ -56,3 +56,7 @@ Q97. Can we cast any other type to Boolean Type with type casting?
 Ans: No, we can neither cast any other primitive type to Boolean data type nor can cast Boolean
 data type to any other primitive data type.
 
+Q98. Can we use different return types for methods when overridden?
+Ans: The basic requirement of method overriding in Java is that the overridden method should
+have same name, and parameters.But a method can be overridden with a different return type as
+long as the new return type extends the original.
