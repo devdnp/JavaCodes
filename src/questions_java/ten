@@ -60,3 +60,12 @@ Q98. Can we use different return types for methods when overridden?
 Ans: The basic requirement of method overriding in Java is that the overridden method should
 have same name, and parameters.But a method can be overridden with a different return type as
 long as the new return type extends the original.
+For example , method is returning a reference type.
+Class B extends A{
+    A method(int x){
+        //original method
+    }
+    B method(int x){
+        //overridden method
+    }
+}
