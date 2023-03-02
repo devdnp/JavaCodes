@@ -73,3 +73,7 @@ Class B extends A{
 Q99. What's the base class of all exception classes?
 Ans: In Java, Java.lang.Throwable is the super class of all exception classes and all exception
 classes are derived from this base class.
+
+Q100. What's the order of call of constructors in inheritiance?
+Ans: In case of inheritance, when a new object of a derived class is created, first the constructor of
+the super class is invoked and then the constructor of the derived class is invoked.
