@@ -69,3 +69,7 @@ Class B extends A{
         //overridden method
     }
 }
+
+Q99. What's the base class of all exception classes?
+Ans: In Java, Java.lang.Throwable is the super class of all exception classes and all exception
+classes are derived from this base class.
