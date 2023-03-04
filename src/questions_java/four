@@ -1,3 +1,4 @@
+// 9 - 18
 
 Q9. What is the difference between double and float variables in Java?
 Ans: In java, float takes 4 bytes in memory while Double takes 8 bytes in memory. Float is single
