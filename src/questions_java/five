@@ -1,3 +1,5 @@
+// 19 - 27
+
 Q19. What are the performance implications of Interfaces over abstract classes?
 Ans: Interfaces are slower in performance as compared to abstract classes as extra indirections
 are required for interfaces. Another key factor for developers to take into consideration is that any
