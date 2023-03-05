@@ -1,3 +1,5 @@
+//67 - 75
+
 Q67. What will be the output of Round(3.7) and Ceil(3.7)?
 Ans: Round(3.7) returns 4 and Ceil(3.7) returns 4.
 
