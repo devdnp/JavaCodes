@@ -44,3 +44,4 @@ public class MinTimeToCompleteTrips {
         return maxTime;
     }
 }
+//data check
