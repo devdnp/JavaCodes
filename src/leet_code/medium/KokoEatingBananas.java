@@ -1,7 +1,7 @@
 package leet_code.medium;
 //875
 public class KokoEatingBananas {
-    public int minEatingSpeed(int[] piles, int h) {
+    public static int minEatingSpeed(int[] piles, int h) {
         int low= 1;
         int hi = 1000000000;
 
@@ -12,7 +12,7 @@ public class KokoEatingBananas {
         }
         return low;
     }
-    public boolean canEatInTime(int piles[], int k, int h){
+    public static boolean canEatInTime(int piles[], int k, int h){
         int time = 0;
         for(int p : piles){
             time+=(p-1)/k+1;
@@ -21,5 +21,11 @@ public class KokoEatingBananas {
             }
         }
         return time <= h;
+    }
+
+    public static void main(String[] args) {
+        int[] piles = {3,6,7,11};
+        int h = 8;
+        System.out.println(minEatingSpeed(piles, h));
     }
 }
