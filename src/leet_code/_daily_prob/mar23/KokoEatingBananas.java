@@ -1,7 +1,13 @@
 package leet_code._daily_prob.mar23;
 //875
 public class KokoEatingBananas {
-    public int minEatingSpeed(int[] piles, int h) {
+
+    public static void main(String[] args) {
+        int[] piles = {3,6,7,11};
+        int h = 8;
+        System.out.println(minEatingSpeed(piles, h));
+    }
+    public static int minEatingSpeed(int[] piles, int h) {
         int n=piles.length;
         long total=0;
         for(int i:piles){
@@ -27,7 +33,7 @@ public class KokoEatingBananas {
     public static int lowerBound(long total,int h){
         return (int)Math.floor(total*1.0/h);
     }
-    public boolean canEat(int []piles,int k,int h){
+    public static boolean canEat(int []piles,int k,int h){
         int total=0;
         for(int i=0;i<piles.length;i++){
             total+=piles[i]/k+(piles[i]%k!=0?1:0);
