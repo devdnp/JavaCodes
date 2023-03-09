@@ -79,3 +79,5 @@ classes are derived from this base class.
 Q100. What's the order of call of constructors in inheritiance?
 Ans: In case of inheritance, when a new object of a derived class is created, first the constructor of
 the super class is invoked and then the constructor of the derived class is invoked.
+
+//  The questions are one of the most asked ones  //
