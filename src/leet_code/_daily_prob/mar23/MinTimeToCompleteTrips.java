@@ -2,7 +2,7 @@ package leet_code._daily_prob.mar23;
 //2187
 
 public class MinTimeToCompleteTrips {
-    public long minimumTime(int[] time, int totalTrips) {
+    public static long minimumTime(int[] time, int totalTrips) {
         int n = time.length;
         double tripsPerUnitTime = 0.0;
         int minimumTime = Integer.MAX_VALUE;
@@ -42,6 +42,12 @@ public class MinTimeToCompleteTrips {
         } while(maxTime - minTime>1);
 
         return maxTime;
+    }
+
+    public static void main(String[] args) {
+        int[] time = {1,2,3};
+        int totalTrips = 5;
+        System.out.println(minimumTime(time,totalTrips));
     }
 }
 //data check, server problem n github website
