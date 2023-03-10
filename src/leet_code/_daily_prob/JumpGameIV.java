@@ -4,7 +4,11 @@ import java.util.*;
 
 //1345
 public class JumpGameIV {
-    public int minJumps(int[] arr) {
+    public static void main(String[] args) {
+        int[] arr = {100,-23,-23,404,100,23,23,23,3,404};
+        System.out.println(minJumps(arr));
+    }
+    public static int minJumps(int[] arr) {
         int n = arr.length;
         if(n == 1) return 0;
         Map<Integer, List<Integer>> map = new HashMap<>();
