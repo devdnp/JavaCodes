@@ -6,7 +6,8 @@ import java.util.*;
 public class JumpGameIV {
     public static void main(String[] args) {
         //int[] arr = {100,-23,-23,404,100,23,23,23,3,404};
-        int[] arr = {7};
+        //int[] arr = {7};
+        int[] arr = {7,6,9,6,9,6,9,74};
         System.out.println(minJumps(arr));
     }
     public static int minJumps(int[] arr) {
