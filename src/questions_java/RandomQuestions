@@ -2,12 +2,25 @@
 Ans :   Java Virtual Machine is a virtual machine that enables the computer to run the Java program.
         JVM acts like a run-time engine which calls the main method present in the Java code.
         JVM is the specification which must be implemented in the computer system.
-        The Java code is compiled by JVM to be a Bytecode which is machine independent and close to the native code.
+        The Java code is compiled by JVM to be a Bytecode which is machine independent and
+        close to the native code.
 
 2.  What do you understand by JRE ?
 Ans :   JRE stands for Java Runtime Environment.
         It is the implementation of JVM.
-        The Java Runtime Environment is a set of software tools which are used for developing Java applications.
+        The Java Runtime Environment is a set of software tools which are used for developing
+        Java applications.
         It is used to provide the runtime environment.
         It is the implementation of JVM. It physically exists.
         It contains a set of libraries + other files that JVM uses at runtime.
+
+3.      What do you understand by JDK ?
+Ans :   JDK is an acronym for Java Development Kit.
+        It is a software development environment which is used to develop Java applications and
+        applets. It physically exists. It contains JRE + development tools.
+        JDK is an implementation of any one of the below given Java Platforms released by
+        Oracle Corporation:
+
+        Standard Edition Java Platform
+        Enterprise Edition Java Platform
+        Micro Edition Java Platform
