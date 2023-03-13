@@ -27,3 +27,8 @@ Ans :   JDK is an acronym for Java Development Kit.
 
 4.      How many types of memory areas are allocated by JVM?
 Ans :   Five types
+        a) Class(Method) Area
+        b) Heap
+        c) Stack
+        d) Program Counter Register
+        e) Native Method Stack
