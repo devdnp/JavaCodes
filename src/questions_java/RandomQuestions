@@ -28,7 +28,17 @@ Ans :   JDK is an acronym for Java Development Kit.
 4.      How many types of memory areas are allocated by JVM?
 Ans :   Five types
         a) Class(Method) Area
+        -  Class Area stores per-class structures such as the runtime constant pool,
+           field, method data, and the code for methods.
         b) Heap
+        -  It is the runtime data area in which the memory is allocated to the objects
         c) Stack
+        -  Java Stack stores frames. It holds local variables and partial results,
+           and plays a part in method invocation and return. Each thread has a private JVM stack,
+           created at the same time as the thread. A new frame is created each time a method is
+           invoked. A frame is destroyed when its method invocation completes.
         d) Program Counter Register
+        -  PC (program counter) register contains the address of the Java virtual machine
+           instruction currently being executed.
         e) Native Method Stack
+        -  It contains all the native methods used in the application.
