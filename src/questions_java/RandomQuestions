@@ -21,6 +21,9 @@ Ans :   JDK is an acronym for Java Development Kit.
         JDK is an implementation of any one of the below given Java Platforms released by
         Oracle Corporation:
 
-        Standard Edition Java Platform
-        Enterprise Edition Java Platform
-        Micro Edition Java Platform
+        a. Standard Edition Java Platform
+        b. Enterprise Edition Java Platform
+        c. Micro Edition Java Platform
+
+4.      How many types of memory areas are allocated by JVM?
+Ans :   Five types
