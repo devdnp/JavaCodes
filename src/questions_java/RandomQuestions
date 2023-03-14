@@ -53,3 +53,10 @@ Ans :   Just-In-Time(JIT) compiler: It is used to improve the performance. JIT c
 Ans :   A platform is the hardware or software environment in which a piece of software is executed.
         There are two types of platforms, software-based and hardware-based.
         Java provides the software-based platform.
+
+7.      What is main difference between Java platform and other platforms ?
+Ans :   There are the following differences between the Java platform and other platforms.
+        a) Java is the software-based platform whereas other platforms may be the hardware platforms
+            or software-based platforms.
+        b) Java is executed on the top of other hardware platforms whereas other platforms can only
+            have the hardware components.
