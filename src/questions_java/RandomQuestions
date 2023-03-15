@@ -65,3 +65,8 @@ Ans :   There are the following differences between the Java platform and other 
 Ans :   The bytecode. Java compiler converts the Java programs into the class file (Byte Code)
         which is the intermediate language between source code and machine code.
         This bytecode is not platform specific and can be executed on any computer.
+
+9.      What is classloader?
+Ans :   Classloader is a subsystem of JVM which is used to load class files.
+        Whenever we run the java program, it is loaded first by the classloader.
+
