@@ -70,3 +70,9 @@ Ans :   The bytecode. Java compiler converts the Java programs into the class fi
 Ans :   Classloader is a subsystem of JVM which is used to load class files.
         Whenever we run the java program, it is loaded first by the classloader.
 
+10.     How many types of classloader are there ?
+Ans :   There are three built-in classloaders in Java.
+        a) Bootstrap
+        b) Extension
+        c) System/Application
+
