@@ -60,3 +60,8 @@ Ans :   There are the following differences between the Java platform and other 
             or software-based platforms.
         b) Java is executed on the top of other hardware platforms whereas other platforms can only
             have the hardware components.
+
+8.      What gives Java its 'write once and run anywhere' nature?
+Ans :   The bytecode. Java compiler converts the Java programs into the class file (Byte Code)
+        which is the intermediate language between source code and machine code.
+        This bytecode is not platform specific and can be executed on any computer.
