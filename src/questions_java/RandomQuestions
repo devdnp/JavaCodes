@@ -80,3 +80,7 @@ Ans :   There are three built-in classloaders in Java.
         classloader. It loads the rt.jar file which contains all class files of Java Standard
         Edition like java.lang package classes, java.net package classes, java.util package classes,
         java.io package classes, java.sql package classes, etc.
+
+        Extension ClassLoader: This is the child classloader of Bootstrap and parent classloader of
+        System classloader. It loads the jar files located inside $JAVA_HOME/jre/lib/ext directory.
+
