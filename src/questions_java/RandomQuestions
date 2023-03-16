@@ -76,3 +76,7 @@ Ans :   There are three built-in classloaders in Java.
         b) Extension
         c) System/Application
 
+        Bootstrap ClassLoader: This is the first classloader which is the superclass of Extension
+        classloader. It loads the rt.jar file which contains all class files of Java Standard
+        Edition like java.lang package classes, java.net package classes, java.util package classes,
+        java.io package classes, java.sql package classes, etc.
