@@ -93,3 +93,13 @@ Ans :   There are three built-in classloaders in Java.
 Ans :   Yes, Java allows to save our java file by .java only, we need to compile it by
         javac .java and run by java classname.
 
+        //save by .java only
+        class A{
+            public static void main(String args[]){
+                System.out.println("Hello java");
+            }
+        }
+        //compile by javac .java
+        //run by     java A
+        compile it by javac .java
+        run it by java A
