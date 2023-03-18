@@ -106,3 +106,8 @@ Ans :   Yes, Java allows to save our java file by .java only, we need to compile
 
 12.     Is delete, next, main, exit or null keyword in java?
 Ans :   No.
+
+13.     If I don't provide any arguments on the command line, then what will the value stored in
+        the String array passed into the main() method, empty or NULL?
+Ans :   It is empty, but not null.
+
