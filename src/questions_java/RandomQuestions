@@ -111,3 +111,7 @@ Ans :   No.
         the String array passed into the main() method, empty or NULL?
 Ans :   It is empty, but not null.
 
+14.     What if I write static public void instead of public static void?
+Ans :   The program compiles and runs correctly because the order of specifiers doesn't matter
+        in Java.
+
