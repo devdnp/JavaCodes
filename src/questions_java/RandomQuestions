@@ -115,3 +115,6 @@ Ans :   It is empty, but not null.
 Ans :   The program compiles and runs correctly because the order of specifiers doesn't matter
         in Java.
 
+15.     What is the default value of the local variables?
+Ans :   The local variables are not initialized to any default value, neither primitives nor
+        object references.
