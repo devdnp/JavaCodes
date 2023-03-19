@@ -126,4 +126,12 @@ Ans :   In Java, access specifiers are the keywords which are used to define the
 17.     How many types of access specifiers are there in Java ?
 Ans :   There are 4 types of access specifiers - Public, Protected, Default, Private
 
-
+18.     Whats the definition of each type of access specifiers ?
+Ans :   Public - The classes, methods, or variables which are defined as public, can be accessed
+                 by any class or method.
+        Protected - Protected can be accessed by the class of the same package, or by the sub-class
+                    of this class, or within the same class.
+        Default - Default are accessible within the package only. By default, all the classes,
+                  methods, and variables are of default scope.
+        Private - The private class, methods, or variables defined as private can be accessed
+                  within the class only.
