@@ -118,3 +118,7 @@ Ans :   The program compiles and runs correctly because the order of specifiers 
 15.     What is the default value of the local variables?
 Ans :   The local variables are not initialized to any default value, neither primitives nor
         object references.
+
+16.     What are the various access specifiers in Java?
+Ans :   In Java, access specifiers are the keywords which are used to define the access scope of
+        the method, class, or a variable.
