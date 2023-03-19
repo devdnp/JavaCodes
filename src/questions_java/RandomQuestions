@@ -122,3 +122,8 @@ Ans :   The local variables are not initialized to any default value, neither pr
 16.     What are the various access specifiers in Java?
 Ans :   In Java, access specifiers are the keywords which are used to define the access scope of
         the method, class, or a variable.
+
+17.     How many types of access specifiers are there in Java ?
+Ans :   There are 4 types of access specifiers - Public, Protected, Default, Private
+
+
