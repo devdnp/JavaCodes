@@ -145,3 +145,11 @@ Ans :   The methods or variables defined as static are shared among all the obje
         For example, In the class simulating the collection of the students in a college, the name of the
         college is the common attribute to all the students. Therefore, the college name will be defined as
         static.
+
+20.     What are the advantages of Packages in Java?
+Ans :   There are various advantages of defining packages in Java.
+        Packages avoid the name clashes.
+        The Package provides easier access control.
+        We can also have the hidden classes that are not visible outside and used by the package.
+        It is easier to locate the related classes.
+
