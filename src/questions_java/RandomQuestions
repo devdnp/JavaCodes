@@ -158,3 +158,10 @@ Ans :   The Object is the real-time entity having some state and behavior. In Ja
         instance of the class having the instance variables as the state of the object and the
         methods as the behavior of the object. The object of a class can be created by using the
         new keyword.
+
+22.     What is object-oriented paradigm?
+Ans :   It is a programming paradigm based on objects having data and methods defined in the class
+        to which it belongs. Object-oriented paradigm aims to incorporate the advantages of
+        modularity and reusability. Objects are the instances of classes which interacts with one
+        another to design applications and programs. There are the following features of the
+        object-oriented paradigm.
