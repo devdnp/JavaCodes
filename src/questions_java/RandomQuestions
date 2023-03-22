@@ -176,3 +176,15 @@ Ans :   It is a programming paradigm based on objects having data and methods de
 23.     What will be the initial value of an object reference which is defined as an instance
         variable?
 Ans :   All object references are initialized to null in Java.
+
+24.     What is the difference between an object-oriented programming language and object-based
+        programming language?
+Ans :   There are the following basic differences between the object-oriented language and
+        object-based language.
+
+        a) Object-oriented languages follow all the concepts of OOPs whereas, the object-based
+            language doesn't follow all the concepts of OOPs like inheritance and polymorphism.
+        b) Object-oriented languages do not have the inbuilt objects whereas Object-based languages
+            have the inbuilt objects, for example, JavaScript has window object.
+        c) Examples of object-oriented programming are Java, C#, Smalltalk, etc. whereas the
+            examples of object-based languages are JavaScript, VBScript, etc.
