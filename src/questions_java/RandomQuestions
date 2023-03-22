@@ -188,3 +188,10 @@ Ans :   There are the following basic differences between the object-oriented la
             have the inbuilt objects, for example, JavaScript has window object.
         c) Examples of object-oriented programming are Java, C#, Smalltalk, etc. whereas the
             examples of object-based languages are JavaScript, VBScript, etc.
+
+25.     What is the constructor?
+Ans :   The constructor can be defined as the special type of method that is used to initialize the
+        state of an object. It is invoked when the class is instantiated, and the memory is
+        allocated for the object. Every time, an object is created using the new keyword, the
+        default constructor of the class is called. The name of the constructor must be similar to
+        the class name. The constructor must not have an explicit return type.
