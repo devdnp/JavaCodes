@@ -207,3 +207,11 @@ Ans :   No, the constructor can't be final.
 28.     Can we overload the constructors?
 Ans :   Yes, the constructors can be overloaded by changing the number of arguments accepted by the
         constructor or by changing the data type of the parameters.
+
+29.     What do you understand by copy constructor in Java?
+Ans :   There is no copy constructor in java. However, we can copy the values from one object to
+        another like copy constructor in C++.
+        There are many ways to copy the values of one object into another in java. They are:
+        By constructor
+        By assigning the values of one object into another
+        By clone() method of Object class
