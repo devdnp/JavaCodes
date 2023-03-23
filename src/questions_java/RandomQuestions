@@ -200,3 +200,6 @@ Ans :   The constructor can be defined as the special type of method that is use
 Ans :   The purpose of the default constructor is to assign the default value to the objects. The
         java compiler creates a default constructor implicitly if there is no constructor in the
         class.
+
+27.     Can you make a constructor final?
+Ans :   No, the constructor can't be final.
