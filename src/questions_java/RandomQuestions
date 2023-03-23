@@ -203,3 +203,7 @@ Ans :   The purpose of the default constructor is to assign the default value to
 
 27.     Can you make a constructor final?
 Ans :   No, the constructor can't be final.
+
+28.     Can we overload the constructors?
+Ans :   Yes, the constructors can be overloaded by changing the number of arguments accepted by the
+        constructor or by changing the data type of the parameters.
