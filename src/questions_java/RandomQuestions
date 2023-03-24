@@ -222,3 +222,10 @@ Ans :   The static variable is used to refer to the common property of all objec
         etc. Static variable gets memory only once in the class area at the time of class loading.
         Using a static variable makes your program more memory efficient (it saves memory). Static
         variable belongs to the class rather than the object.
+
+31.     What is the static method?
+Ans :   A static method belongs to the class rather than the object.
+        There is no need to create the object to call the static methods.
+        A static method can access and change the value of the static variable.
+
+
