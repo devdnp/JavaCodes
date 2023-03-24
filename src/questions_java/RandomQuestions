@@ -215,3 +215,10 @@ Ans :   There is no copy constructor in java. However, we can copy the values fr
         By constructor
         By assigning the values of one object into another
         By clone() method of Object class
+
+30.     What is the static variable?
+Ans :   The static variable is used to refer to the common property of all objects (that is not
+        unique for each object), e.g., The company name of employees, college name of students,
+        etc. Static variable gets memory only once in the class area at the time of class loading.
+        Using a static variable makes your program more memory efficient (it saves memory). Static
+        variable belongs to the class rather than the object.
