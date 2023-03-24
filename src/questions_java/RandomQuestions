@@ -228,4 +228,8 @@ Ans :   A static method belongs to the class rather than the object.
         There is no need to create the object to call the static methods.
         A static method can access and change the value of the static variable.
 
-
+32.     What are the restrictions that are applied to the Java static methods?
+Ans :   Two main restrictions are applied to the static methods.
+        a) The static method can not use non-static data member or call the non-static method
+            directly.
+        b) this and super cannot be used in static context as they are non-static.
