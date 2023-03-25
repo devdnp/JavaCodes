@@ -241,3 +241,7 @@ Ans :   Because the object is not required to call the static method. If we make
 
 34.     Can we override the static methods?
 Ans :   No, we can't override static methods.
+
+35.     What is the static block?
+Ans :   Static block is used to initialize the static data member. It is executed before the main
+        method, at the time of classloading.
