@@ -245,3 +245,7 @@ Ans :   No, we can't override static methods.
 35.     What is the static block?
 Ans :   Static block is used to initialize the static data member. It is executed before the main
         method, at the time of classloading.
+
+36.     Can we overload the constructors?
+Ans :   Yes, the constructors can be overloaded by changing the number of arguments accepted by the
+        constructor or by changing the data type of the parameters.
