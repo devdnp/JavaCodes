@@ -249,3 +249,7 @@ Ans :   Static block is used to initialize the static data member. It is execute
 36.     Can we overload the constructors?
 Ans :   Yes, the constructors can be overloaded by changing the number of arguments accepted by the
         constructor or by changing the data type of the parameters.
+
+37.     Can you make a constructor final?
+Ans :   No, the constructor can't be final.
+
