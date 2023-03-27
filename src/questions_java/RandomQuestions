@@ -259,3 +259,9 @@ Ans :   The static variable is used to refer to the common property of all objec
         Static variable gets memory only once in the class area at the time of class loading.
         Using a static variable makes your program more memory efficient (it saves memory).
         Static variable belongs to the class rather than the object.
+
+39.     How can constructor chaining be done using this keyword?
+Ans :   Constructor chaining enables us to call one constructor from another constructor of the
+        class with respect to the current class object. We can use this keyword to perform
+        constructor chaining within the same class. Consider the following example which illustrates
+        how can we use this keyword to achieve constructor chaining.
