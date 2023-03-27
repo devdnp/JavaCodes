@@ -265,3 +265,12 @@ Ans :   Constructor chaining enables us to call one constructor from another con
         class with respect to the current class object. We can use this keyword to perform
         constructor chaining within the same class. Consider the following example which illustrates
         how can we use this keyword to achieve constructor chaining.
+
+40.     What are the advantages of passing this into a method instead of the current class object
+        itself?
+Ans :   As we know, that this refers to the current class object, therefore, it must be similar to
+        the current class object. However, there can be two main advantages of passing this into a
+        method instead of the current class object.
+        - this is a final variable. Therefore, this cannot be assigned to any new value whereas the
+            current class object might not be final and can be changed.
+        - this can be used in the synchronized block.
