@@ -274,3 +274,11 @@ Ans :   As we know, that this refers to the current class object, therefore, it 
         - this is a final variable. Therefore, this cannot be assigned to any new value whereas the
             current class object might not be final and can be changed.
         - this can be used in the synchronized block.
+
+41.     What is the Inheritance?
+Ans :   Inheritance is a mechanism by which one object acquires all the properties and behavior of
+        another object of another class. It is used for Code Reusability and Method Overriding. The
+        idea behind inheritance in Java is that you can create new classes that are built upon
+        existing classes. When you inherit from an existing class, you can reuse methods and fields
+        of the parent class. Moreover, you can add new methods and fields in your current class
+        also.
