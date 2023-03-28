@@ -286,4 +286,7 @@ Ans :   Inheritance is a mechanism by which one object acquires all the properti
 42.     What if the static modifier is removed from the signature of the main method?
 Ans :   Program compiles. However, at runtime, It throws an error "NoSuchMethodError."
 
+43.     What is IS-A relationship ?
+Ans :   Inheritance represents the IS-A relationship which is also known as a parent-child
+        relationship.
 
