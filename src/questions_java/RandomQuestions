@@ -290,3 +290,11 @@ Ans :   Program compiles. However, at runtime, It throws an error "NoSuchMethodE
 Ans :   Inheritance represents the IS-A relationship which is also known as a parent-child
         relationship.
 
+44.     How many types of inheritance are there in java ?
+Ans :   There are five types of inheritance in Java.
+        a) Single-level inheritance
+        b) Multi-level inheritance
+        c) Multiple Inheritance
+        d) Hierarchical Inheritance
+        e) Hybrid Inheritance
+        NOTE : Multiple inheritance is not supported in Java through class.
