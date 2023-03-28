@@ -282,3 +282,8 @@ Ans :   Inheritance is a mechanism by which one object acquires all the properti
         existing classes. When you inherit from an existing class, you can reuse methods and fields
         of the parent class. Moreover, you can add new methods and fields in your current class
         also.
+
+42.     What if the static modifier is removed from the signature of the main method?
+Ans :   Program compiles. However, at runtime, It throws an error "NoSuchMethodError."
+
+
