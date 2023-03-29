@@ -298,3 +298,9 @@ Ans :   There are five types of inheritance in Java.
         d) Hierarchical Inheritance
         e) Hybrid Inheritance
         NOTE : Multiple inheritance is not supported in Java through class.
+
+45.     What are the main uses of the super keyword?
+Ans :   There are the following uses of super keyword
+        - super can be used to refer to the immediate parent class instance variable.
+        - super can be used to invoke the immediate parent class method.
+        - super() can be used to invoke immediate parent class constructor.
