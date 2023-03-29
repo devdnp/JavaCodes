@@ -304,3 +304,12 @@ Ans :   There are the following uses of super keyword
         - super can be used to refer to the immediate parent class instance variable.
         - super can be used to invoke the immediate parent class method.
         - super() can be used to invoke immediate parent class constructor.
+
+46.     What is aggregation?
+Ans :   Aggregation can be defined as the relationship between two classes where the aggregate
+        class contains a reference to the class it owns. Aggregation is best described as a has-a
+        relationship. For example, The aggregate class Employee having various fields such as age,
+        name, and salary also contains an object of Address class having various fields such as
+        Address-Line 1, City, State, and pin-code. In other words, we can say that Employee (class)
+        has an object of Address class.
+
