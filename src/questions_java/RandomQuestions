@@ -320,3 +320,9 @@ Ans :   Holding the reference of a class within some other class is known as com
         composition is the particular case of aggregation which represents a stronger relationship
         between two objects. Example: A class contains students. A student cannot exist without a
         class. There exists composition between class and students.
+
+48.     What is the difference between aggregation and composition?
+Ans :   Aggregation represents the weak relationship whereas composition represents the strong relationship. For
+        example, the bike has an indicator (aggregation), but the bike has an engine (composition).
+
+
