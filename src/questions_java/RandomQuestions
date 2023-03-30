@@ -325,4 +325,7 @@ Ans :   Holding the reference of a class within some other class is known as com
 Ans :   Aggregation represents the weak relationship whereas composition represents the strong relationship. For
         example, the bike has an indicator (aggregation), but the bike has an engine (composition).
 
+49.     Why does Java not support pointers?
+Ans :   The pointer is a variable that refers to the memory address. They are not used in Java
+        because they are unsafe(unsecured) and complex to understand.
 
