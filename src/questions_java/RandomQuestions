@@ -329,3 +329,9 @@ Ans :   Aggregation represents the weak relationship whereas composition represe
 Ans :   The pointer is a variable that refers to the memory address. They are not used in Java
         because they are unsafe(unsecured) and complex to understand.
 
+50.     What is super in java?
+Ans :   The super keyword in Java is a reference variable that is used to refer to the immediate
+        parent class object. Whenever you create the instance of the subclass, an instance of the
+        parent class is created implicitly which is referred by super reference variable. The
+        super() is called in the class constructor implicitly by the compiler if there is no super
+        or this.
