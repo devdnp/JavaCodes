@@ -345,3 +345,10 @@ Ans :   The object cloning is used to create the exact copy of an object. The cl
 52.     What is method overloading?
 Ans :   Method overloading is the polymorphism technique which allows us to create multiple methods
         with the same name but different signature.
+
+53.     How can achieve method overloading?
+Ans :   We can achieve method overloading in two ways.
+        a) By Changing the number of arguments
+        b) By Changing the data type of arguments
+        Method overloading increases the readability of the program. Method overloading is
+        performed to figure out the program quickly.
