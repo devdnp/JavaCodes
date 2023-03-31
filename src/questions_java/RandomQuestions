@@ -335,3 +335,9 @@ Ans :   The super keyword in Java is a reference variable that is used to refer 
         parent class is created implicitly which is referred by super reference variable. The
         super() is called in the class constructor implicitly by the compiler if there is no super
         or this.
+
+51.     What is object cloning?
+Ans :   The object cloning is used to create the exact copy of an object. The clone() method of the
+        Object class is used to clone an object. The java.lang.Cloneable interface must be
+        implemented by the class whose object clone we want to create. If we don't implement
+        Cloneable interface, clone() method generates CloneNotSupportedException.
