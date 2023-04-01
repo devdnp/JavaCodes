@@ -358,3 +358,11 @@ Ans :   Yes, It is possible to use this keyword to refer static members because 
         reference variable which refers to the current class object. However, as we know that, it
         is unnecessary to access static variables through objects, therefore, it is not the best
         practice to use this to refer static members.
+
+55.     How can constructor chaining be done using this keyword?
+Ans :   Constructor chaining enables us to call one constructor from another constructor of the
+        class with respect to the current class object. We can use this keyword to perform
+        constructor chaining within the same class.
+
+
+
