@@ -352,3 +352,9 @@ Ans :   We can achieve method overloading in two ways.
         b) By Changing the data type of arguments
         Method overloading increases the readability of the program. Method overloading is
         performed to figure out the program quickly.
+
+54.     Can this keyword be used to refer static members?
+Ans :   Yes, It is possible to use this keyword to refer static members because this is just a
+        reference variable which refers to the current class object. However, as we know that, it
+        is unnecessary to access static variables through objects, therefore, it is not the best
+        practice to use this to refer static members.
