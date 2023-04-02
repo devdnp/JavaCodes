@@ -372,4 +372,6 @@ Ans :   As we know, that this refers to the current class object, therefore, it 
             the current class object might not be final and can be changed.
         -   this can be used in the synchronized block.
 
+57.     Can you use this() and super() both in a constructor?
+Ans :   No, because this() and super() must be the first statement in the class constructor
 
