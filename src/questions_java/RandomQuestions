@@ -375,3 +375,8 @@ Ans :   As we know, that this refers to the current class object, therefore, it 
 57.     Can you use this() and super() both in a constructor?
 Ans :   No, because this() and super() must be the first statement in the class constructor
 
+58.     What is object cloning?
+Ans :   The object cloning is used to create the exact copy of an object. The clone() method of the
+        Object class is used to clone an object. The java.lang.Cloneable interface must be
+        implemented by the class whose object clone we want to create. If we don't implement
+        Cloneable interface, clone() method generates CloneNotSupportedException.
