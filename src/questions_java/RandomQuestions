@@ -388,3 +388,8 @@ Ans :   No, We cannot overload the methods by just applying the static keyword t
 60.     Why does Java not support pointers?
 Ans :   The pointer is a variable that refers to the memory address. They are not used in Java
         because they are unsafe(unsecured) and complex to understand.
+
+61.     Why is method overloading not possible by changing the return type in java?
+Ans :   In Java, method overloading is not possible by changing the return type of the program due
+        to avoid the ambiguity.
+
