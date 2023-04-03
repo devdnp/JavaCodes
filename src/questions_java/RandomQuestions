@@ -393,3 +393,6 @@ Ans :   The pointer is a variable that refers to the memory address. They are no
 Ans :   In Java, method overloading is not possible by changing the return type of the program due
         to avoid the ambiguity.
 
+62.     What is method overloading with type promotion?
+Ans :   By Type promotion is method overloading, we mean that one data type can be promoted to
+        another implicitly if no exact matching is found.
