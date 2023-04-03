@@ -384,3 +384,7 @@ Ans :   The object cloning is used to create the exact copy of an object. The cl
 59.      Can we overload the methods by making them static?
 Ans :   No, We cannot overload the methods by just applying the static keyword to them(number of
         parameters and types are the same).
+
+60.     Why does Java not support pointers?
+Ans :   The pointer is a variable that refers to the memory address. They are not used in Java
+        because they are unsafe(unsecured) and complex to understand.
