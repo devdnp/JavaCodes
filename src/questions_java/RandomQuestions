@@ -403,3 +403,6 @@ Ans :   In Java, the final variable is used to restrict the user from updating i
         variable once assigned to a value, can never be changed after that. The final variable
         which is not assigned to any value can only be assigned through the class constructor.
 
+64.     What is the final method?
+Ans :   If we change any method to a final method, we can't override it.
+
