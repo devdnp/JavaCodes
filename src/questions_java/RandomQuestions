@@ -396,3 +396,10 @@ Ans :   In Java, method overloading is not possible by changing the return type 
 62.     What is method overloading with type promotion?
 Ans :   By Type promotion is method overloading, we mean that one data type can be promoted to
         another implicitly if no exact matching is found.
+
+63.     What is the final variable?
+Ans :   In Java, the final variable is used to restrict the user from updating it. If we initialize
+        the final variable, we can't change its value. In other words, we can say that the final
+        variable once assigned to a value, can never be changed after that. The final variable
+        which is not assigned to any value can only be assigned through the class constructor.
+
