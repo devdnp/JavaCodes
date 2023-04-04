@@ -406,3 +406,6 @@ Ans :   In Java, the final variable is used to restrict the user from updating i
 64.     What is the final method?
 Ans :   If we change any method to a final method, we can't override it.
 
+65.     What is the final class?
+Ans :   If we make any class final, we can't inherit it into any of the subclasses.
+
