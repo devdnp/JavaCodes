@@ -416,5 +416,6 @@ Ans :   Yes.
 Ans :   No, we cannot override the private methods because the scope of private methods is limited
         to the class and we cannot access them outside of the class.
 
-
+68.     What is the final method?
+Ans :   If we change any method to a final method, we can't override it.
 
