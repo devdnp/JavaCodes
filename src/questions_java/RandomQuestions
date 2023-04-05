@@ -412,7 +412,9 @@ Ans :   If we make any class final, we can't inherit it into any of the subclass
 66.     Can we override the overloaded method?
 Ans :   Yes.
 
-
+67.     Can we override the private methods?
+Ans :   No, we cannot override the private methods because the scope of private methods is limited
+        to the class and we cannot access them outside of the class.
 
 
 
