@@ -409,3 +409,10 @@ Ans :   If we change any method to a final method, we can't override it.
 65.     What is the final class?
 Ans :   If we make any class final, we can't inherit it into any of the subclasses.
 
+66.     Can we override the overloaded method?
+Ans :   Yes.
+
+
+
+
+
