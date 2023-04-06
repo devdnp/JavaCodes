@@ -419,3 +419,5 @@ Ans :   No, we cannot override the private methods because the scope of private 
 68.     What is the final method?
 Ans :   If we change any method to a final method, we can't override it.
 
+69.     What is the final blank variable?
+Ans :   A final variable, not initialized at the time of declaration, is known as the final blank variable. We can't initialize the final blank variable directly. Instead, we have to initialize it by using the class constructor. It is useful in the case when the user has some data which must not be changed by others, for example, PAN Number.
