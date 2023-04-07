@@ -428,3 +428,11 @@ Ans :   A final variable, not initialized at the time of declaration, is known a
 70.     Can we initialize the final blank variable?
 Ans :   Yes, if it is not static, we can initialize it in the constructor. If it is static blank
         final variable, it can be initialized only in the static block
+
+71.     Can we declare a constructor as final?
+Ans :   The constructor can never be declared as final because it is never inherited. Constructors
+        are not ordinary methods; therefore, there is no sense to declare constructors as final.
+        However, if you try to do so, The compiler will throw an error.
+
+
+
