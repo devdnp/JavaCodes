@@ -439,5 +439,7 @@ Ans :   No, we cannot declare an interface as final because the interface must b
         some class to provide its definition. Therefore, there is no sense to make an interface
         final. However, if you try to do so, the compiler will show an error.
 
-
+73.     What is the difference between the final method and abstract method?
+Ans :   The main difference between the final method and abstract method is that the abstract method
+        cannot be final as we need to override them in the subclass to give its definition.
 
