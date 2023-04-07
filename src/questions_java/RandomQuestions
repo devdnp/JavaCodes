@@ -434,5 +434,10 @@ Ans :   The constructor can never be declared as final because it is never inher
         are not ordinary methods; therefore, there is no sense to declare constructors as final.
         However, if you try to do so, The compiler will throw an error.
 
+72.     Can we declare an interface as final?
+Ans :   No, we cannot declare an interface as final because the interface must be implemented by
+        some class to provide its definition. Therefore, there is no sense to make an interface
+        final. However, if you try to do so, the compiler will show an error.
+
 
 
