@@ -450,4 +450,6 @@ Ans :   Runtime polymorphism or dynamic method dispatch is a process in which a 
         determination of the method to be called is based on the object being referred to by the
         reference variable.
 
-
+75.     Can you achieve Runtime Polymorphism by data members?
+Ans :   No, because method overriding is used to achieve runtime polymorphism and data members
+        cannot be overridden. We can override the member functions but not the data members.
