@@ -443,3 +443,11 @@ Ans :   No, we cannot declare an interface as final because the interface must b
 Ans :   The main difference between the final method and abstract method is that the abstract method
         cannot be final as we need to override them in the subclass to give its definition.
 
+74.     What is Runtime Polymorphism?
+Ans :   Runtime polymorphism or dynamic method dispatch is a process in which a call to an
+        overridden method is resolved at runtime rather than at compile-time. In this process, an
+        overridden method is called through the reference variable of a superclass. The
+        determination of the method to be called is based on the object being referred to by the
+        reference variable.
+
+
