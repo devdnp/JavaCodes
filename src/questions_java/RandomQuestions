@@ -464,3 +464,13 @@ Ans :   No, because method overriding is used to achieve runtime polymorphism an
                 System.out.println(obj.speedlimit);//90
             }
         }
+
+76.     What is the difference between static binding and dynamic binding?
+Ans :   In case of the static binding, the type of the object is determined at compile-time whereas,
+        in the dynamic binding, the type of the object is determined at runtime.
+
+
+
+
+
+
