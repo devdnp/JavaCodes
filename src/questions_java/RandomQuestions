@@ -474,6 +474,12 @@ Ans :   The instanceof in Java is also known as type comparison operator because
         instance with type. It returns either true or false. If we apply the instanceof operator
         with any variable that has a null value, it returns false.
 
-
+78.     What is the abstraction?
+Ans :   Abstraction is a process of hiding the implementation details and showing only functionality
+        to the user. It displays just the essential things to the user and hides the internal
+        information, for example, sending SMS where you type the text and send the message. You
+        don't know the internal processing about the message delivery. Abstraction enables you to
+        focus on what the object does instead of how it does it. Abstraction lets you focus on what
+        the object does instead of how it does it.
 
 
