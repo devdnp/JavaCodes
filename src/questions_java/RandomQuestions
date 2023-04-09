@@ -469,7 +469,10 @@ Ans :   No, because method overriding is used to achieve runtime polymorphism an
 Ans :   In case of the static binding, the type of the object is determined at compile-time whereas,
         in the dynamic binding, the type of the object is determined at runtime.
 
-
+77.     What is Java instanceOf operator?
+Ans :   The instanceof in Java is also known as type comparison operator because it compares the
+        instance with type. It returns either true or false. If we apply the instanceof operator
+        with any variable that has a null value, it returns false.
 
 
 
