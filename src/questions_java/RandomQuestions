@@ -484,3 +484,8 @@ Ans :   Abstraction is a process of hiding the implementation details and showin
 
 79.     Can there be an abstract method without an abstract class?
 Ans :   No, if there is an abstract method in a class, that class must be abstract.
+
+80.     Can you use abstract and final both with a method?
+Ans :   No, because we need to override the abstract method to provide its implementation, whereas
+        we can't override the final method.
+
