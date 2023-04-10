@@ -482,4 +482,5 @@ Ans :   Abstraction is a process of hiding the implementation details and showin
         focus on what the object does instead of how it does it. Abstraction lets you focus on what
         the object does instead of how it does it.
 
-
+79.     Can there be an abstract method without an abstract class?
+Ans :   No, if there is an abstract method in a class, that class must be abstract.
