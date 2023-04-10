@@ -489,3 +489,7 @@ Ans :   No, if there is an abstract method in a class, that class must be abstra
 Ans :   No, because we need to override the abstract method to provide its implementation, whereas
         we can't override the final method.
 
+81.     Is it possible to instantiate the abstract class?
+Ans :   No, the abstract class can never be instantiated even if it contains a constructor and all
+        of its methods are implemented.
+
