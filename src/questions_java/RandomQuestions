@@ -503,6 +503,10 @@ Ans :   The interface is a blueprint for a class that has static constants and a
         However, we need to implement it to define its methods. Since Java 8, we can have the default,
          static, and private methods in an interface.
 
+83.     Can you declare an interface method static?
+Ans :   No, because methods of an interface are abstract by default, and we can not use static and
+        abstract together.
+
 
 
 
