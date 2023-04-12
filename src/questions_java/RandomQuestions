@@ -515,6 +515,7 @@ Ans :   No, because an interface needs to be implemented by the other class and 
 Ans :   A Marker interface can be defined as the interface which has no data member and member
         functions. For example, Serializable, Cloneable are marker interfaces.
 
-
+86.     Can we define private and protected modifiers for the members in interfaces?
+Ans :   No, they are implicitly public.
 
 
