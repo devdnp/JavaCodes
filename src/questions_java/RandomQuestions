@@ -511,5 +511,10 @@ Ans :   No, because methods of an interface are abstract by default, and we can 
 Ans :   No, because an interface needs to be implemented by the other class and if it is final, it
         can't be implemented by any class.
 
+85.     What is a marker interface?
+Ans :   A Marker interface can be defined as the interface which has no data member and member
+        functions. For example, Serializable, Cloneable are marker interfaces.
+
+
 
 
