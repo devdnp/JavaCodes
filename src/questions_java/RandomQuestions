@@ -518,4 +518,8 @@ Ans :   A Marker interface can be defined as the interface which has no data mem
 86.     Can we define private and protected modifiers for the members in interfaces?
 Ans :   No, they are implicitly public.
 
+87.     When can an object reference be cast to an interface reference?
+Ans :   An object reference can be cast to an interface reference when the object implements the
+        referenced interface.
+
 
