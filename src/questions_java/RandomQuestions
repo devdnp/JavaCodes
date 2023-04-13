@@ -533,4 +533,8 @@ Ans :   A class can be made write-only by making all of the fields private. The 
         fields. We cannot read the properties of the class because there is no getter method in
         this class.
 
-
+90.     What is the package?
+Ans :   A package is a group of similar type of classes, interfaces, and sub-packages. It provides
+        access protection and removes naming collision. The packages in Java can be categorized into
+        two forms, inbuilt package, and user-defined package. There are many built-in packages such
+        as Java, lang, awt, javax, swing, net, io, util, sql, etc.
