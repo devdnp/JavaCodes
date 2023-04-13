@@ -526,3 +526,11 @@ Ans :   An object reference can be cast to an interface reference when the objec
 Ans :   A class can be made read-only by making all of the fields private. The read-only class will
         have only getter methods which return the private property of the class to the main method.
         We cannot modify this property because there is no setter method available in the class.
+
+89.     How to make a write-only class in Java?
+Ans :   A class can be made write-only by making all of the fields private. The write-only class
+        will have only setter methods which set the value passed from the main method to the private
+        fields. We cannot read the properties of the class because there is no getter method in
+        this class.
+
+
