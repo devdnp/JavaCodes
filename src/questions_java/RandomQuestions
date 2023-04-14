@@ -545,4 +545,11 @@ Ans :   By defining packages, we can avoid the name conflicts between the same c
         more effectively. For example, one can clearly understand that the classes present in
         java.io package are used to perform io related operations.
 
+92.     How to create packages in Java?
+Ans :   If you are using the programming IDEs like Eclipse, NetBeans, MyEclipse, etc. click on
+        file->new->project and eclipse will ask you to enter the name of the package. It will create
+        the project package containing various directories such as src, etc. If you are using an
+        editor like notepad for java programming, use the following steps to create the package.
+
+
 
