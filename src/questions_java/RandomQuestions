@@ -538,3 +538,11 @@ Ans :   A package is a group of similar type of classes, interfaces, and sub-pac
         access protection and removes naming collision. The packages in Java can be categorized into
         two forms, inbuilt package, and user-defined package. There are many built-in packages such
         as Java, lang, awt, javax, swing, net, io, util, sql, etc.
+
+91.     What are the advantages of defining packages in Java?
+Ans :   By defining packages, we can avoid the name conflicts between the same class names defined
+        in different packages. Packages also enable the developer to organize the similar classes
+        more effectively. For example, one can clearly understand that the classes present in
+        java.io package are used to perform io related operations.
+
+
