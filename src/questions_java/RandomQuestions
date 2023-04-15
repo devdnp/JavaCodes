@@ -568,5 +568,6 @@ Ans :   There are two ways to access a class in another class.
         - By using the relative path, We can use the path of the class that is related to the
                 package that contains our class. It can be the same or subpackage.
 
-
+94.     Do I need to import java.lang package any time? Why?
+Ans :   No. It is by default loaded internally by the JVM.
 
