@@ -576,4 +576,12 @@ Ans :   One can import the same package or the same class multiple times. Neithe
         about it. However, the JVM will internally load the class only once no matter how many times you import
         the same class.
 
+96.     What is the static import?
+Ans :   By static import, we can access the static members of a class directly, and there is no to qualify it with
+        the class name.
+
+
+
+
+
 
