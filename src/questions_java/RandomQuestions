@@ -596,4 +596,5 @@ Ans :   Exception Handling is a mechanism that is used to handle runtime errors.
         There are mainly two types of exceptions: checked and unchecked. Here, the error is
         considered as the unchecked exception.
 
-
+99.     What is the base class for Error and Exception?
+Ans :   The Throwable class is the base class for Error and Exception.
