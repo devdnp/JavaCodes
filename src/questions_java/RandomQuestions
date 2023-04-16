@@ -590,6 +590,10 @@ Ans :   There are mainly two types of exceptions: checked and unchecked. Here, a
         - Error: Error cause the program to exit since they are not recoverable. For Example,
             OutOfMemoryError, AssertionError, etc.
 
-
+98.     What is Exception Handling?
+Ans :   Exception Handling is a mechanism that is used to handle runtime errors. It is used primarily
+        to handle checked exceptions. Exception handling maintains the normal flow of the program.
+        There are mainly two types of exceptions: checked and unchecked. Here, the error is
+        considered as the unchecked exception.
 
 
