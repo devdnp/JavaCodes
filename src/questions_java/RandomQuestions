@@ -580,7 +580,15 @@ Ans :   One can import the same package or the same class multiple times. Neithe
 Ans :   By static import, we can access the static members of a class directly, and there is no to qualify it with
         the class name.
 
-
+97.     How many types of exception can occur in a Java program?
+Ans :   There are mainly two types of exceptions: checked and unchecked. Here, an error is considered
+        as the unchecked exception. According to Oracle, there are three types of exceptions:
+        - Checked Exception: Checked exceptions are the one which are checked at compile-time. For
+            example, SQLException, ClassNotFoundException, etc.
+        - Unchecked Exception: Unchecked exceptions are the one which are handled at runtime because
+            they can not be checked at compile-time. For example, ArithmaticException, NullPointerException, ArrayIndexOutOfBoundsException, etc.
+        - Error: Error cause the program to exit since they are not recoverable. For Example,
+            OutOfMemoryError, AssertionError, etc.
 
 
 
