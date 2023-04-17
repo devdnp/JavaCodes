@@ -611,5 +611,8 @@ Ans :   1) Checked Exception - The classes that extend Throwable class except Ru
                 exceptions, e.g., ArithmeticException, NullPointerException, etc. Unchecked
                 exceptions are not checked at compile-time.
 
-
+102.    Is it necessary that each try block must be followed by a catch block?
+Ans :   It is not necessary that each try block must be followed by a catch block. It should be
+        followed by either a catch block OR a finally block. So whatever exceptions are likely to
+        be thrown should be declared in the throws clause of the method.
 
