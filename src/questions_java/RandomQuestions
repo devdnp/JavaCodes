@@ -598,3 +598,10 @@ Ans :   Exception Handling is a mechanism that is used to handle runtime errors.
 
 99.     What is the base class for Error and Exception?
 Ans :   The Throwable class is the base class for Error and Exception.
+
+100.    Explain the hierarchy of Java Exception classes?
+Ans :   The java.lang.Throwable class is the root class of Java Exception hierarchy which is
+        inherited by two subclasses: Exception and Error.
+
+
+
