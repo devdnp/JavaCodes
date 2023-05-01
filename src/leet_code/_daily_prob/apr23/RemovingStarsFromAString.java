@@ -4,7 +4,7 @@ package leet_code._daily_prob.apr23;
 public class RemovingStarsFromAString {
 
     public static void main(String[] args) {
-        String s = "leet**cod*e";
+        String s = "erase*****";//"leet**cod*e";
         System.out.println(removeStars(s));
     }
     public static String removeStars(String s) {
