@@ -4,7 +4,8 @@ package leet_code._daily_prob.may23;
 public class WaysToBuildGoodStrings {
 
     public static void main(String[] args) {
-        int low = 3, high = 3, zero = 1, one = 1;
+        // int low = 3, high = 3, zero = 1, one = 1;
+        int low = 2, high = 3, zero = 1, one = 2;
         System.out.println(countGoodStrings(low,high,zero,one));
     }
     public static int countGoodStrings(int low, int high, int zero, int one) {
