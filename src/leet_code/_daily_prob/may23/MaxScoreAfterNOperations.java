@@ -4,7 +4,7 @@ package leet_code._daily_prob.may23;
 public class MaxScoreAfterNOperations {
 
     public static void main(String[] args) {
-        int[] nums = {1,2};
+        int[] nums = {1,2,3,4,5,6};
         System.out.println(maxScore(nums));
     }
     public static int maxScore(int[] nums) {
