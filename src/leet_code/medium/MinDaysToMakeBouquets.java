@@ -3,8 +3,8 @@ package leet_code.medium;
 public class MinDaysToMakeBouquets {
 
     public static void main(String[] args) {
-        int[] bloomDay = {1,10,3,10,2};
-        int m = 3, k = 2;
+        int[] bloomDay = {7,7,7,7,12,7,7};//{1,10,3,10,2};
+        int m=2,k=3;//m = 3, k = 2;
         System.out.println(minDays(bloomDay,m,k));
     }
     public static int minDays(int[] bloomDay, int m, int k) {
